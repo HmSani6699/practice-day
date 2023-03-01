@@ -13,4 +13,14 @@ const student = {
     }
 }
 const result = student.fullName(' akter')
-console.log(result)
+// console.log(result)
+
+
+// practice 2
+
+const template = `
+${student.name}
+${student.father.name}
+${student.subjects[1]}
+`;
+// console.log(template)
