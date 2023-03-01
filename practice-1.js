@@ -24,3 +24,8 @@ ${student.father.name}
 ${student.subjects[1]}
 `;
 // console.log(template)
+
+
+// practice 3
+const noParameter = () => 89;
+// console.log(noParameter())
