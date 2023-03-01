@@ -46,4 +46,29 @@ const multiLine = (num1, num2) => {
     const total = first + second
     return total
 }
-console.log(multiLine(10, 10))
+// console.log(multiLine(10, 10))
+
+// practice 4
+const number = [10, 20, 30, 40, 50, 60, 70, 80, 90];
+const result1 = number.map(num => num / 7);
+// console.log(result1);
+
+// practice 5
+const madrasa = {
+    name: 'pakunda',
+    address: 'pakunda bammar bari',
+    AllStudent: 250,
+    staf: 18
+}
+
+
+const { name, address, AllStudent, staf } = madrasa;
+// console.log(name);
+// console.log(address);
+// console.log(AllStudent);
+// console.log(staf);
+
+const array = [1, 2, 3, 4, 5];
+const [, balance] = array;
+// console.log(balance)
+// console.log(array)
